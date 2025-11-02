@@ -144,6 +144,12 @@ python3 blue-sec-gui.py
 
 The GUI provides all CLI functionality in an intuitive interface, perfect for both beginners and experienced users. All features include safety warnings and require explicit confirmation for dangerous operations.
 
+![Blue-sec GUI](docs/blue-sec-gui-screenshot.png)
+
+*Screenshot: Blue-sec GUI showing device scanner with sample devices*
+
+For complete GUI documentation, see [docs/GUI.md](docs/GUI.md).
+
 ## 📚 Usage
 
 ### 🎮 HID Attack Mode (BlueDucky-Style)
