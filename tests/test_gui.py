@@ -24,7 +24,7 @@ try:
         test_root.withdraw()
         test_root.destroy()
         DISPLAY_AVAILABLE = True
-    except:
+    except Exception:
         DISPLAY_AVAILABLE = False
         
 except ImportError:

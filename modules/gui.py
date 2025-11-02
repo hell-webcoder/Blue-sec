@@ -224,8 +224,7 @@ class BlueSecGUI:
         button_frame = ttk.Frame(tab)
         button_frame.pack(fill=tk.X, padx=5, pady=5)
         
-        ttk.Button(button_frame, text="Execute Payload", command=self.execute_hid_payload, 
-                  style="Danger.TButton").pack(side=tk.LEFT, padx=5)
+        ttk.Button(button_frame, text="⚠️ Execute Payload", command=self.execute_hid_payload).pack(side=tk.LEFT, padx=5)
         ttk.Button(button_frame, text="Test Connection", command=self.test_hid_connection).pack(side=tk.LEFT, padx=5)
         
         # Results
@@ -272,8 +271,7 @@ class BlueSecGUI:
         
         ttk.Button(control_frame, text="Use Selected", command=self.use_selected_device_attack).grid(row=1, column=2, padx=5, pady=5)
         
-        ttk.Button(control_frame, text="Execute Attack", command=self.execute_attack, 
-                  style="Danger.TButton").grid(row=2, column=1, padx=5, pady=10, sticky=tk.W)
+        ttk.Button(control_frame, text="⚠️ Execute Attack", command=self.execute_attack).grid(row=2, column=1, padx=5, pady=10, sticky=tk.W)
         
         # Results
         results_frame = ttk.LabelFrame(tab, text="Attack Results")
